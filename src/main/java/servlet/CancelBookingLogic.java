@@ -8,7 +8,7 @@ import java.io.IOException;
 import store.BookingStore;
 
 @WebServlet("/cancel")
-public class CancelBookingServlet  extends HttpServlet {
+public class CancelBookingLogic extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException{

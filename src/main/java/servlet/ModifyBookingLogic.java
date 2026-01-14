@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 
 @WebServlet("/modify")
-public class ModifyBooking extends HttpServlet {
+public class ModifyBookingLogic extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request,

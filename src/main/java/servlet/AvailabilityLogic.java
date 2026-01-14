@@ -10,7 +10,7 @@ import store.BookingStore;
 import java.io.IOException;
 // availability servlet
 @WebServlet("/availability")
-public class AvailabilityServlet extends HttpServlet {
+public class AvailabilityLogic extends HttpServlet {
     // doesnt need post only get
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     // gets tge booking request

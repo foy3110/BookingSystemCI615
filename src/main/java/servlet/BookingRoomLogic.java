@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 
 @WebServlet("/book")
-public class BookingRoomServlet extends HttpServlet {
+public class BookingRoomLogic extends HttpServlet {
 
         protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
             String roomId = (req.getParameter("roomId"));
